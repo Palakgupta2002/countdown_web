@@ -1,0 +1,35 @@
+body{
+    background-image: url("./clockimage\ -\ Copy.jpg");
+   background-repeat: no-repeat;
+   background-color: rgb(178, 181, 184);
+}
+#clock{
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    border-color: black;
+    background-color: rgb(92, 92, 99);
+    position: relative;
+    margin-left: 1200px;
+}
+#inputboxex{
+    display: flex;
+    position: relative;
+    margin-left: 1000px;
+    column-gap: 20px;
+    top: 400px;
+   
+}
+
+input{
+    height: 70px;
+    width: 50px;
+    border-radius: 20px;
+    position: relative;
+    font-size: 30px;
+    
+}
+h1{
+    position: relative;
+}
+
