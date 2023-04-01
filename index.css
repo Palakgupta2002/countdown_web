@@ -1,35 +1,59 @@
 body{
-    background-image: url("./clockimage\ -\ Copy.jpg");
-   background-repeat: no-repeat;
-   background-color: rgb(178, 181, 184);
+    overflow: hidden;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url(https://images.unsplash.com/photo-1422493757035-1e5e03968f95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1580&q=80);
+    background-size: cover;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+h3{
+    font: italic 1.2em "Fira Sans", serif;
+    color: bisque;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
 }
 #clock{
-    border-radius: 50%;
-    width:100px;
-    height: 100px;
-    border-color: black;
-    background-color: rgb(92, 92, 99);
-    position: relative;
-    margin-left: 1200px;
-}
-#inputboxex{
     display: flex;
-    position: relative;
-    margin-left: 1000px;
-    column-gap: 20px;
-    top: 400px;
-   
 }
-
-input{
-    height: 70px;
-    width: 50px;
-    border-radius: 20px;
-    position: relative;
-    font-size: 30px;
-    
-}
-h1{
+#clock div{
+    margin: 10px;
     position: relative;
 }
-
+#clock span {
+    width: 150px;
+    height: 120px;
+    background-color: slateblue;
+    opacity: .7;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+#clock .text{
+    height: 40px;
+    font-size: 14px;
+    text-transform: uppercase ;
+    letter-spacing: 2px;
+    background-color: darkblue;
+}
+#clock #ampm{
+bottom: 0;
+position: absolute;
+width: 80px;
+height: 40px;
+font-size: 24px;
+background: green;
+}
